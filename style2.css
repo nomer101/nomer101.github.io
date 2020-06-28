@@ -95,24 +95,21 @@ body,html {
   }
 }
 
-
-
-/* Backgorund Images */
  
 .slide:first-child {
-  background: url('../images/good1.jpg') no-repeat
+  background: url('good1.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(2) {
-  background: url('../images/image 5.jpg') no-repeat
+  background: url('image 5.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(3) {
-  background: url('../images/nebula.jpg') no-repeat
+  background: url('nebula.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(4) {
-  background: url('../images/Solar.jpg') no-repeat
+  background: url('Solar.jpg') no-repeat
     center top/cover;
 }
 

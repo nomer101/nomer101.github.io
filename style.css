@@ -82,17 +82,17 @@ header li ul li{
 
 }
 .pimg1{
-    background-image: url('../images/Flammarion.jpg');
+    background-image: url('Flammarion.jpg');
     min-height: 700px;
 }
 
 .pimg2{
-    background-image: url('../images/principles.jpg');
+    background-image: url('principles.jpg');
     min-height: 500px;
 }
 
 .pimg3{
-    background-image: url('../images/be.jpg');
+    background-image: url('be.jpg');
     min-height: 600px;
 }
 

@@ -1,0 +1,295 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: #666;
+}
+
+
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+header{
+    
+    padding-top: 0px;
+    min-height: 0px;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:20px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    width: 200px;
+    height: 50px;
+    opacity: 0.7;
+    min-height: 45px;
+    padding: 10px 20px 0 20px;
+    margin: 0px;
+    text-align: center;
+    line-height: 40px;
+}
+
+header li ul a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 20px 0 20px;
+}
+
+header li ul a:hover{
+      color: thistle;
+  }
+
+header li ul li{
+      display: none;
+}
+  
+  header li:hover ul li {
+      display: block;
+      text-align: center;
+      padding: 10px 10px 10px;
+  }
+  
+  
+  header nav{
+      float: right;
+      background-color: black;
+      width: 100%;
+      border-bottom: blanchedalmond 5px solid;
+      opacity: 0.8;
+ }
+
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .container{
+   position: relative;
+   opacity: 0.7;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ background-attachment: fixed;
+
+}
+.pimg1{
+    background-image: url('../images/Flammarion.jpg');
+    min-height: 700px;
+}
+.pimg8{
+    background-image: url('../images/astro.jpg');
+    min-height: 700px;
+}
+.pimg4{
+    background-image: url('../images/planets.jpg');
+    min-height: 700px;
+}
+
+.pimg2{
+    background-image: url('../images/principles.jpg');
+    min-height: 500px;
+}
+
+.pimg3{
+    background-image: url('../images/be.jpg');
+    min-height: 600px;
+}
+.pimg5{
+    background-image: url('../images/beauty.jpg');
+    min-height: 500px;
+}
+
+.pimg6{
+    background-image: url('../images/sun.jpg');
+    min-height: 600px;
+}
+.pimg7{
+    background-image: url('../images/who.jpg');
+    min-height: 500px;
+}
+
+.container{
+    min-height: 900px;
+    margin-bottom: 10%;
+    
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+    min-height: 200px;
+    
+}
+.section-dark li{
+    list-style: none;
+}
+.section-dark li a{
+    text-decoration: none;
+    color: #fff;
+}
+.section-light li{
+    list-style: none;
+}
+.section-light li a{
+    text-decoration: none;
+    color: #666;
+}
+.section-light{
+    color: #666;
+    background-color: whitesmoke;
+    min-height: 250px;
+}
+
+.container
+{   
+    min-height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+
+.box
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #000;
+    box-shadow: 0 30px 30px rgba(0,0,0,0.5);
+}
+
+.box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.box:hover .imgBx img
+{
+    opacity: 0;
+}
+
+.box .content
+{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background: #fff;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.box:hover .content
+{
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.box .content h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    overflow: hidden;
+  }
+  
+  .box .content p {
+    margin: 10px 0 0;
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    transition: 0.5s;
+    text-align: justify;
+  }
+  
+  .box:hover .content p {
+    opacity: 1;
+    transition-delay: 0.5s;
+  }
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align:center;
+    color:#000;
+    font-size: 27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
+
+.ptext .border{
+    background-color: #111 ;
+    color: #fff;
+    padding: 40px;
+    
+}
+
+.ptext .border.trans{
+    background-color: transparent;
+}
+
+.content li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #666;
+}
+
+.content li{
+    list-style: none;
+}
+
+
+footer
+{
+
+  padding:20px;
+  color:#ffffff;
+  background-color: black;
+  text-align: center;
+  opacity: 0.7;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+@media(max-width:568px){
+    .pimg1 , .pimg2 , .pimg3 , .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .container {
+      background-attachment: scroll;  
+    }
+
+}
